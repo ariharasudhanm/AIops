@@ -43,7 +43,8 @@ image_data = image_data[np.newaxis, ...].astype(np.float32)
 
 print(image_data.shape)
 
-sess = ort.InferenceSession("yolov4/yolov4.onnx",  providers=["CUDAExecutionProvider", "CPUExecutionProvider"])
+#"CUDAExecutionProvider"
+sess = ort.InferenceSession("yolov4/yolov4.onnx",  providers=[ "CPUExecutionProvider"])
 outputs = sess.get_outputs()
 output_names = list(map(lambda output: output.name, outputs))
 input_name = sess.get_inputs()[0].name
