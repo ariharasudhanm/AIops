@@ -16,7 +16,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    sh 'docker build -t yolov4_inference_image -f Dockerfile .'
+                    sh 'docker build --no-cache -t yolov4_inference_image -f Dockerfile .'
                 }
             }
         }
