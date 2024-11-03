@@ -1,3 +1,4 @@
+# requirements packages for docker container
 numpy
 scipy
 matplotlib

@@ -43,7 +43,7 @@ image_data = image_data[np.newaxis, ...].astype(np.float32)
 
 print(image_data.shape)
 
-sess = ort.InferenceSession("yolov4/yolov4.onnx")
+sess = ort.InferenceSession("yolov4/yolov4.onnx",  providers=["CUDAExecutionProvider", "CPUExecutionProvider"])
 outputs = sess.get_outputs()
 output_names = list(map(lambda output: output.name, outputs))
 input_name = sess.get_inputs()[0].name
@@ -230,10 +230,10 @@ pred_bbox = postprocess_bbbox(detections, ANCHORS, STRIDES, XYSCALE)
 bboxes = postprocess_boxes(pred_bbox, original_image_size, input_size, 0.25)
 bboxes = nms(bboxes, 0.5, method='nms')
 image = draw_bbox(original_image, bboxes)
+print('Inference done sucessfully!!!!!')
 
-
-# Display the image using matplotlib
-plt.imshow(image)
-plt.axis('off')  # Turn off axis for a cleaner look
-plt.show()
+# Save the result with bounding boxes
+image_with_boxes = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)  # Convert back to BGR for saving with OpenCV
+cv2.imwrite('/app/output/prediction.jpg', image_with_boxes)
+print(f"Saved results")
 
