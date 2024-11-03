@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                   git url: 'https://github.com/ariharasudhanm/AIops.git', branch: 'main', credentialsId: 'github-token'
+                git url: 'https://github.com/ariharasudhanm/AIops.git', branch: 'main', credentialsId: 'github-token'
             }
         }
         stage('Build Docker Image') {
