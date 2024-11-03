@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec043e7d-47bd-41d7-b11d-bda885393ede" name="Changes" comment="simple test">
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-    </list>
+    <list default="true" id="ec043e7d-47bd-41d7-b11d-bda885393ede" name="Changes" comment="Running docker container to jenkins integration." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +126,7 @@
       <updated>1730452029944</updated>
       <workItem from="1730452030949" duration="32233000" />
       <workItem from="1730562521831" duration="1345000" />
-      <workItem from="1730623668701" duration="9546000" />
+      <workItem from="1730623668701" duration="9998000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins file and jenkins integration.">
       <option name="closed" value="true" />
@@ -162,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730649217348</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Running docker container to jenkins integration.">
+      <option name="closed" value="true" />
+      <created>1730649474340</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730649474340</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +189,8 @@
     <MESSAGE value="Added jenkins file and jenkins integration." />
     <MESSAGE value="Simple test integration for checking docker version in jenkins" />
     <MESSAGE value="simple test" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple test" />
+    <MESSAGE value="Running docker container to jenkins integration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Running docker container to jenkins integration." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AIops$inference.coverage" NAME="inference Coverage Results" MODIFIED="1730486829226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
