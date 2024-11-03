@@ -16,14 +16,14 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    sh 'sudo docker build -t yolov4_inference_image -f Dockerfile .'
+                    sh 'docker build -t yolov4_inference_image -f Dockerfile .'
                 }
             }
         }
         stage('Run Inference in Docker Container') {
             steps {
                 script {
-                    docker.image(IMAGE_NAME).inside("--gpus all -v ${pwd()}/${OUTPUT_DIR}:/app/${OUTPUT_DIR}") {
+                    docker.image(IMAGE_NAME).inside("--gpus all -v ${env.WORKSPACE}/${OUTPUT_DIR}:/app/${OUTPUT_DIR}") {
                         sh 'python3 inference.py'
                     }
                 }
