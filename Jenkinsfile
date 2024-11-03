@@ -24,12 +24,6 @@ pipeline {
             steps {
                 script {
                     docker.image(IMAGE_NAME).inside("--gpus all -v ${env.WORKSPACE}/${OUTPUT_DIR}:/app/${OUTPUT_DIR}") {
-                        // Print the current working directory and list all files and folders
-                        sh 'echo "Current working directory:" && pwd'
-                        sh 'echo "Directory contents:" && ls -al /app'
-                        sh 'echo "Output directory contents:" && ls -al /app/output'
-
-                        // Run the inference script
                         sh 'python3 inference.py'
                     }
                 }

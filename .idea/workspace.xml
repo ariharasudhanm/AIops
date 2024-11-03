@@ -126,7 +126,7 @@
       <updated>1730452029944</updated>
       <workItem from="1730452030949" duration="32233000" />
       <workItem from="1730562521831" duration="1345000" />
-      <workItem from="1730623668701" duration="19682000" />
+      <workItem from="1730623668701" duration="20089000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins file and jenkins integration.">
       <option name="closed" value="true" />
@@ -304,7 +304,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730670611053</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="updated Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1730671206634</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1730671206634</updated>
+    </task>
+    <task id="LOCAL-00024" summary="updated Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1730671324403</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1730671324403</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

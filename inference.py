@@ -242,6 +242,6 @@ print('Inference done sucessfully!!!!!')
 
 # Save the result with bounding boxes
 image_with_boxes = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)  # Convert back to BGR for saving with OpenCV
-cv2.imwrite('/app/output/prediction.jpg', image_with_boxes)
+cv2.imwrite('prediction.jpg', image_with_boxes)
 print(f"Saved results")
 
