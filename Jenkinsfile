@@ -16,7 +16,7 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 script {
-                    docker.build(IMAGE_NAME, '-f Dockerfile .')
+                    sh 'sudo docker build -t yolov4_inference_image -f Dockerfile .'
                 }
             }
         }
