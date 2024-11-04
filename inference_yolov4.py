@@ -5,7 +5,11 @@ import random
 import onnxruntime as ort
 import matplotlib.pyplot as plt
 import cv2
+import logging
 
+logging.basicConfig(level=logging.DEBUG)
+session_options = ort.SessionOptions()
+session_options.log_severity_level = 0  # Most verbose logging
 
 # this function is from tensorflow-yolov4-tflite/core/utils.py
 def image_preprocess(image, target_size, gt_boxes=None):
