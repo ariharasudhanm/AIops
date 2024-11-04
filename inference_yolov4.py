@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 import cv2
 
 
-
 # this function is from tensorflow-yolov4-tflite/core/utils.py
 def image_preprocess(image, target_size, gt_boxes=None):
 
