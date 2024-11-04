@@ -20,6 +20,18 @@ pipeline {
                 }
             }
         }
+
+           stage('Check GPU Access') {
+            steps {
+                script {
+                    docker.image(IMAGE_NAME).inside("--gpus all") {
+                        // Run nvidia-smi to verify GPU access
+                        sh 'nvidia-smi'
+                    }
+                }
+            }
+        }
+
         stage('Run Inference in Docker Container') {
             steps {
                 script {
