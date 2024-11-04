@@ -3,4 +3,5 @@ numpy
 scipy
 matplotlib
 opencv-python-headless
-#onnxruntime-gpu==1.19.2
+onnxruntime-gpu==1.19.2
+tensorrt

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec043e7d-47bd-41d7-b11d-bda885393ede" name="Changes" comment="updated Jenkinsfile" />
+    <list default="true" id="ec043e7d-47bd-41d7-b11d-bda885393ede" name="Changes" comment="updated Jenkinsfile">
+      <change afterPath="$PROJECT_DIR$/inference_yolov8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/inference_yolov4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Dockerfile" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -47,6 +52,7 @@
     &quot;Docker.Docker Image.executor&quot;: &quot;Run&quot;,
     &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
     &quot;Python.inference.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inference_yolov8.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/ari/Workplace/AIops&quot;,
@@ -126,7 +132,9 @@
       <updated>1730452029944</updated>
       <workItem from="1730452030949" duration="32233000" />
       <workItem from="1730562521831" duration="1345000" />
-      <workItem from="1730623668701" duration="20089000" />
+      <workItem from="1730623668701" duration="20454000" />
+      <workItem from="1730747256351" duration="3685000" />
+      <workItem from="1730752484403" duration="388000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins file and jenkins integration.">
       <option name="closed" value="true" />
@@ -320,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730671324403</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="updated Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1730671724679</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1730671724679</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +362,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="updated Jenkinsfile" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AIops$inference.coverage" NAME="inference Coverage Results" MODIFIED="1730660105792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AIops$inference.coverage" NAME="inference Coverage Results" MODIFIED="1730671524364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AIops$inference_yolov8.coverage" NAME="inference_yolov8 Coverage Results" MODIFIED="1730752488345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
