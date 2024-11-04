@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec043e7d-47bd-41d7-b11d-bda885393ede" name="Changes" comment="updated Jenkinsfile">
-      <change beforePath="$PROJECT_DIR$/inference_yolov4.py" beforeDir="false" afterPath="$PROJECT_DIR$/inference_yolov4.py" afterDir="false" />
-    </list>
+    <list default="true" id="ec043e7d-47bd-41d7-b11d-bda885393ede" name="Changes" comment="updated Jenkinsfile" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +130,7 @@
       <workItem from="1730562521831" duration="1345000" />
       <workItem from="1730623668701" duration="20454000" />
       <workItem from="1730747256351" duration="3685000" />
-      <workItem from="1730752484403" duration="4350000" />
+      <workItem from="1730752484403" duration="4772000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins file and jenkins integration.">
       <option name="closed" value="true" />
@@ -374,7 +372,31 @@
       <option name="project" value="LOCAL" />
       <updated>1730756697612</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="updated Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1730756836242</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1730756836242</updated>
+    </task>
+    <task id="LOCAL-00032" summary="updated Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1730756942590</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1730756942590</updated>
+    </task>
+    <task id="LOCAL-00033" summary="updated Jenkinsfile">
+      <option name="closed" value="true" />
+      <created>1730757053590</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1730757053590</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

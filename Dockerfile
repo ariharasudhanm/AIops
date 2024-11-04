@@ -18,7 +18,7 @@ WORKDIR /app
 # Copy requirements file and install dependencies
 COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
-RUN pip3 install --no-cache-dir onnxruntime==1.12.0
+RUN pip3 install --no-cache-dir onnxruntime
 
 
 # Copy the rest of the application code into the container
