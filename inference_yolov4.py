@@ -49,7 +49,7 @@ print(image_data.shape)
 #
 # sess = ort.InferenceSession("yolov4/yolov4.onnx",  providers=["CPUExecutionProvider"])
 try:
-    sess = ort.InferenceSession("yolov4/yolov4.onnx", providers=[ 'AzureExecutionProvider, CPUExecutionProvider'])
+    sess = ort.InferenceSession("yolov4/yolov4.onnx", providers=[ 'CPUExecutionProvider'])
     print("Model loaded successfully.")
 except Exception as e:
     print("Failed to load model:", e)
