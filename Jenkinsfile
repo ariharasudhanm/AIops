@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     docker.image(IMAGE_NAME).inside("--gpus all -v ${env.WORKSPACE}/${OUTPUT_DIR}:/app/${OUTPUT_DIR}") {
-                        sh 'python3 inference.py'
+                        sh 'python3 inference_yolov4.py'
                     }
                 }
             }

@@ -26,5 +26,5 @@ COPY . .
 
 
 # Default command to run the inference script
-CMD ["python3", "inference.py"]
+CMD ["python3", "inference_yolov4.py"]
 
