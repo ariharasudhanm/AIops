@@ -52,12 +52,11 @@
 # Overview
 This project demonstrates a streamlined AI inference pipeline designed to
 integrate deep learning model inference with CI/CD principles. 
-With a robust setup involving Jenkins, Docker, and ONNX Runtime, this pipeline enables automated testing, deployment, and inference execution. Our goal is to ensure reliable, scalable, a
-nd efficient model inference in production environments.
+With a robust setup involving Jenkins, Docker, and ONNX Runtime, this pipeline enables automated testing, deployment, and inference execution. Our goal is to ensure reliable, scalable, and efficient model inference in production environments.
 
 
 
-Core Components and Workflow 🛠️
+# Core Components and Workflow 🛠️
 Developer & Version Control (GitHub): Developers commit code changes and model updates to the GitHub repository.
 Continuous Integration (Jenkins): Jenkins automates the workflow by triggering builds on every push to the repository. The code is pulled from GitHub, and Docker containers are spun up to ensure a consistent environment for each run.
 Inference Framework (ONNX Runtime): The ONNX Runtime facilitates fast, optimized inference of the deep learning model.
@@ -65,27 +64,27 @@ Containerization (Docker): Docker encapsulates the entire inference pipeline, in
 Notifications & Feedback: After each deployment, Jenkins provides feedback and notifications about the deployment status.
 
 
-How the Pipeline Works ⚙️
+# How the Pipeline Works ⚙️
 Here's a high-level breakdown of the pipeline's functionality:
 
 Step 1: GitHub Trigger
 
-A webhook in GitHub triggers Jenkins whenever code is pushed to the repository.
+- A webhook in GitHub triggers Jenkins whenever code is pushed to the repository.
 This initiates the pipeline, pulling the latest changes from the GitHub repository.
 
 Step 2: Docker Image Build
 
-Jenkins builds a Docker image that encapsulates all dependencies, including ONNX Runtime and other necessary libraries.
+- Jenkins builds a Docker image that encapsulates all dependencies, including ONNX Runtime and other necessary libraries.
 The image is built using a Dockerfile, which specifies the environment setup for running the inference code.
 
 Step 3: Model Inference Execution
 
-The Docker container runs the inference script using ONNX Runtime, leveraging GPU acceleration if available.
+- The Docker container runs the inference script using ONNX Runtime, leveraging GPU acceleration if available.
 The model processes images (or other input data) and generates predictions, which are stored in an output directory.
 
 Step 4: Notification & Feedback
 
-Once the inference completes, Jenkins sends feedback about the status (success/failure) of the pipeline run.
+- Once the inference completes, Jenkins sends feedback about the status (success/failure) of the pipeline run.
 If enabled, the results or logs can also be sent via email or other integrations.
 
 
