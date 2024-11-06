@@ -47,7 +47,7 @@
 
 
 
-![Project Diagram](MLops-piepline.jpg)
+![Project Diagram](MLops-Page-2.drawio.png)
 
 
 
