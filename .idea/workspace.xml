@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec043e7d-47bd-41d7-b11d-bda885393ede" name="Changes" comment="updated Readme">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLops-Page-2.drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MLops-piepline.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +140,7 @@
       <workItem from="1730623668701" duration="20454000" />
       <workItem from="1730747256351" duration="3685000" />
       <workItem from="1730752484403" duration="6242000" />
-      <workItem from="1730923576667" duration="2192000" />
+      <workItem from="1730923576667" duration="3488000" />
     </task>
     <task id="LOCAL-00001" summary="Added jenkins file and jenkins integration.">
       <option name="closed" value="true" />
@@ -428,7 +430,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730925608885</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="updated Readme">
+      <option name="closed" value="true" />
+      <created>1730925845375</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1730925845375</updated>
+    </task>
+    <task id="LOCAL-00038" summary="updated Readme">
+      <option name="closed" value="true" />
+      <created>1730925967958</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1730925967958</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

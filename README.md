@@ -47,7 +47,7 @@
 
 
 
-![Project Diagram](MLops-Page-2.drawio.png)
+![Project Diagram](MLops-Page-2.jpg)
 
 # Overview
 This project demonstrates a streamlined AI inference pipeline designed to
